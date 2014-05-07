@@ -14,3 +14,6 @@ for line in lines:
             if compare_day < data_dic[temp_line_list[1]][6]:
                 data_dic[temp_line_list[1]][4] = "买道具"
                 data_dic[temp_line_list[1]][6] = compare_day
+//中间变量的作用,否则出错
+instead = (newcharger(day, hour)[1][newcharger(day, hour)[0][1]])[4]
+ws.write(count_y, 5, instead.decode('utf8'))
