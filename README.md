@@ -1,5 +1,6 @@
 if_else
 =======
+//the correct format of if/else
 lines = AsionIO.get_file_lines(AsionIO.logid_index() + '/logid_13_' + start_day + '.ig')
 for line in lines:
     temp_line_list = line.strip().split('|')
